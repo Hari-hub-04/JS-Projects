@@ -9,4 +9,4 @@ let age = 20;
 const names = "Hari";
 let degree = "BE";
 const gender = "male";
-console.log("My name is "+ names+ " I'm"+age+"years old, Im studying"+degree);
+console.log("My name is "+ names+ " I'm"+age+"years old, Im studying"+degree+"and I'm"+gender);
