@@ -1,0 +1,26 @@
+let person;
+age = 20;
+if(age>18){
+ person="Adult";   
+}
+else if(age>10){
+    person="child"
+}
+else{
+    person="smallkid"
+}
+console.log(person)
+
+//shortest way of if else 
+//the whole codition in a single line
+let person1;
+age2 = 69;
+person1=(age2>18)? "Adult": "Child";
+console.log(person1)
+
+//shortest way of if else if else 
+//the whole codition in a single line
+let person2;
+age3 = 2;
+person2=(age3>18)? "Adult":(age3>12)? "teenager": "Child";
+console.log(person2)
